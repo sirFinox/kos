@@ -12,7 +12,8 @@ import android.widget.ListView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
-import com.kos.cvut.MainMenuAdapter;
+import com.kos.cvut.activity.MainActivity;
+import com.kos.cvut.adapters.MainMenuAdapter;
 
 public class MainMenuFragment extends ListFragment {
 	

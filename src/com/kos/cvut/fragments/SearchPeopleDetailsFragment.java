@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 import kos.cvut.getdata.Record;
-import kos.cvut.getdata.RecordItemAdapter;
 import kos.cvut.getdata.SqlConnector;
 
 import org.dom4j.Element;
@@ -22,6 +21,7 @@ import android.widget.ListView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
+import com.kos.cvut.adapters.RecordItemAdapter;
 
 public class SearchPeopleDetailsFragment extends SherlockFragment {
 	private String url;

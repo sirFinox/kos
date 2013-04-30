@@ -29,7 +29,7 @@
         android:label="@string/app_name"
         android:theme="@style/ExampleTheme" >
         <activity
-            android:name=".cvut.fragments.MainActivity"
+            android:name="com.kos.cvut.activity.MainActivity"
             android:configChanges="orientation|screenSize|screenLayout"
             android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -39,26 +39,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".cvut.PropertiesActivity" />
-        <activity android:name=".cvut.LeftAndRightActivity" />
-        <activity android:name=".cvut.AttachExample" />
         <activity android:name=".cvut.anim.CustomScaleAnimation" />
         <activity android:name=".cvut.anim.CustomZoomAnimation" />
         <activity android:name=".cvut.anim.CustomRotateAnimation" />
         <activity android:name=".cvut.anim.CustomSlideAnimation" />
-        <activity android:name=".cvut.SlidingTitleBar" />
-        <activity android:name=".cvut.SlidingContent" />
-        <activity android:name=".cvut.ViewPagerActivity" />
-        <activity android:name=".cvut.fragments.FragmentChangeActivity" />
-        <activity android:name=".cvut.fragments.ResponsiveUIActivity" />
-        <activity
-            android:name=".cvut.fragments.BirdActivity"
-            android:theme="@style/Theme.Sherlock.Light.DarkActionBar" />
+        <activity android:name=".cvut.activity.FragmentChangeActivity" />
+        <activity android:name=".cvut.activity.ResponsiveUIActivity" />
         <activity android:name="com.crittercism.NotificationActivity" />
-        <activity android:name=".cvut.ExampleListActivity" >
-        </activity>
-        <activity android:name=".cvut.fragments.MenuActivity" >
-        </activity>
         <activity android:name=".authentification.authenticator.AuthenticatorActivity" />
 
         <service
@@ -74,43 +61,43 @@
         </service>
 
         <activity
-            android:name="com.kos.cvut.fragments.SearchCourseResultsActivity"
+            android:name="com.kos.cvut.activity.SearchCourseResultsActivity"
             android:label="@string/title_activity_search_course_results" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kos.cvut.fragments.MainActivity" />
+                android:value="com.kos.cvut.activity.MainActivity" />
         </activity>
         <activity
-            android:name="com.kos.cvut.fragments.SearchCourseDetailsActivity"
+            android:name="com.kos.cvut.activity.SearchCourseDetailsActivity"
             android:label="@string/title_activity_search_course_details" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kos.cvut.fragments.SearchCourseResultsActivity" />
+                android:value="com.kos.cvut.activity.SearchCourseResultsActivity" />
         </activity>
         <activity
-            android:name="com.kos.cvut.fragments.SearchPeopleResultsActivity"
+            android:name="ccom.kos.cvut.activity.SearchPeopleResultsActivity"
             android:label="@string/title_activity_search_people_results" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kos.cvut.fragments.MainActivity" />
+                android:value="com.kos.cvut.activity.MainActivity" />
         </activity>
         <activity
-            android:name="com.kos.cvut.fragments.SearchPeopleDetailsActivity"
+            android:name="com.kos.cvut.activity.SearchPeopleDetailsActivityity"
             android:label="@string/title_activity_search_people_details" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kos.cvut.fragments.SearchPeopleResultsActivity" />
+                android:value="com.kos.cvut.activity.SearchPeopleResultsActivity" />
         </activity>
         <activity
-            android:name="com.kos.cvut.fragments.CoursesActivity"
+            android:name="com.kos.cvut.activity.CoursesActivity"
             android:label="@string/registered_courses" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kos.cvut.fragments.MainActivity" />
+                android:value="com.kos.cvut.activity.MainActivity" />
         </activity>
         <activity android:name="kos.cvut.getdata.TimetableSlot" >
         </activity>
-        <activity android:name=".cvut.fragments.CoursesListActivity" >
+        <activity android:name="com.kos.cvut.activity.CoursesListActivity" >
         </activity>
     </application>
 

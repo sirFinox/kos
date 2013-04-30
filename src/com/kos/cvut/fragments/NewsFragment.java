@@ -7,9 +7,7 @@ import java.util.LinkedList;
 import org.dom4j.Element;
 
 import kos.cvut.getdata.News;
-import kos.cvut.getdata.NewsItemAdapter;
 import kos.cvut.getdata.Record;
-import kos.cvut.getdata.RecordItemAdapter;
 import kos.cvut.getdata.SqlConnector;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,6 +24,8 @@ import android.widget.TextView;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
 import com.kos.cvut.Constants;
+import com.kos.cvut.adapters.NewsItemAdapter;
+import com.kos.cvut.adapters.RecordItemAdapter;
 
 public class NewsFragment extends DefaultFragment {
 

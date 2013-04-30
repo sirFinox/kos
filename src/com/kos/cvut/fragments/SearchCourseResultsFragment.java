@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 import kos.cvut.getdata.SearchCourse;
-import kos.cvut.getdata.SearchCourseItemAdapter;
 import kos.cvut.getdata.SqlConnector;
 
 import org.dom4j.Element;
@@ -25,6 +24,8 @@ import android.widget.ListView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
+import com.kos.cvut.activity.SearchCourseDetailsActivity;
+import com.kos.cvut.adapters.SearchCourseItemAdapter;
 
 public class SearchCourseResultsFragment extends SherlockFragment {
 	private String search;

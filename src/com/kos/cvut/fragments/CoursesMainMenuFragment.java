@@ -16,7 +16,8 @@ import android.widget.ListView;
 
 import com.actionbarsherlock.app.SherlockListFragment;
 import com.kos.R;
-import com.kos.cvut.MainMenuAdapter;
+import com.kos.cvut.activity.CoursesActivity;
+import com.kos.cvut.adapters.MainMenuAdapter;
 
 public class CoursesMainMenuFragment extends SherlockListFragment {
 

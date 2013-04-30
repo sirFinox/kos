@@ -45,7 +45,7 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
 import com.kos.authentification.Constants;
 import com.kos.authentification.client.NetworkUtilities;
-import com.kos.cvut.fragments.MainActivity;
+import com.kos.cvut.activity.MainActivity;
 
 /**
  * Activity which displays login screen to the user.

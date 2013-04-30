@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 import kos.cvut.getdata.Record;
-import kos.cvut.getdata.RecordItemAdapter;
 import kos.cvut.getdata.SqlConnector;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +19,8 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
+import com.kos.cvut.activity.SearchCourseResultsActivity;
+import com.kos.cvut.adapters.RecordItemAdapter;
 
 public class CoursesFragment extends SherlockFragment {
 

@@ -40,7 +40,7 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.authentification.authenticator.AuthenticatorActivity;
 import com.kos.cvut.Constants;
 import com.kos.cvut.KosDBHelper;
-import com.kos.cvut.fragments.MainActivity;
+import com.kos.cvut.activity.MainActivity;
 
 public class SqlConnector {
 	private static SqlConnector connector = null;

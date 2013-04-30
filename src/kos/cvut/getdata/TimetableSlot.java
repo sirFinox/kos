@@ -2,9 +2,7 @@ package kos.cvut.getdata;
 
 import android.content.Context;
 
-import com.actionbarsherlock.app.SherlockActivity;
 import com.kos.R;
-import com.kos.cvut.Timetable;
 
 public class TimetableSlot{
 	private int day = 0;
@@ -66,7 +64,6 @@ public class TimetableSlot{
 	}
 
 	public String toString(Context ctx) {
-		Timetable time = new Timetable();
 		if (day > 0 && firstHour > 0 && duration > 0) {
 			return getDay(day,ctx) + " " + getHour(firstHour, duration);
 		}

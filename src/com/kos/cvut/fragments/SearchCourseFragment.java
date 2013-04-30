@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
+import com.kos.cvut.activity.SearchCourseResultsActivity;
 
 public class SearchCourseFragment extends SherlockFragment {
 

@@ -54,7 +54,7 @@ public class BaseActivity extends SlidingFragmentActivity {
 			toggle();
 			return true;
 		case R.id.github:
-			Util.goToGitHub(this);
+			//Util.goToGitHub(this);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

@@ -7,9 +7,7 @@ import java.util.LinkedList;
 import org.dom4j.Element;
 
 import kos.cvut.getdata.Course;
-import kos.cvut.getdata.CourseItemAdapter;
 import kos.cvut.getdata.Record;
-import kos.cvut.getdata.RecordItemAdapter;
 import kos.cvut.getdata.SqlConnector;
 import kos.cvut.getdata.TimetableSlot;
 import android.content.Intent;
@@ -30,6 +28,10 @@ import com.actionbarsherlock.app.SherlockFragment;
 import com.kos.R;
 import com.kos.authentification.authenticator.AuthenticatorActivity;
 import com.kos.cvut.Constants;
+import com.kos.cvut.activity.CoursesListActivity;
+import com.kos.cvut.activity.MainActivity;
+import com.kos.cvut.adapters.CourseItemAdapter;
+import com.kos.cvut.adapters.RecordItemAdapter;
 
 public class CoursesListFragment extends SherlockFragment {
 
